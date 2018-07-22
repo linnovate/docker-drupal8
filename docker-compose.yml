@@ -1,0 +1,28 @@
+version: '3'
+services:
+  web:
+    container_name: "${CONTAINER_NAME_WEB}"
+    build: ./utils/docker/images/apache
+    ports:
+     - "${HOST_PORT}:80"
+    volumes:
+     - "./src:/var/www/html"
+     - "./config/apache/000-default.conf:/etc/apache2/sites-enabled/000-default.conf"
+     - "./utils/scripts:/root/scripts"
+    restart: always
+  db:
+    image: "mysql:5.5"
+    volumes:
+     - "./data/mysql:/var/lib/mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: newstart
+      MYSQL_DATABASE: db_name
+      restart: always
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+     - "${PHPMYADMIN_PORT}:80"
+    links:
+        - "db:db"
+    environment:
+      MYSQL_ROOT_PASSWORD: newstart
