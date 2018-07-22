@@ -1,12 +1,15 @@
-### STEPS TO CREATE ENV:
+
+A drupal boilderplate based on Docker + docker And  [drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project "composer/drupal-project")
+
+### Create ENV:
 1. Copy env-example to .env (cp env-example .env).
 2. Modify CONTAINER_NAME_WEB and ports in .env (if needed).
-3. Download latest drupal 8 into src dir - download.sh
-4. Remove download.sh
-5. Copy to a new repo
 
-#### Run the site
-`run ./build.sh`
+### Download Drupal (Installation)
+1. Download latest drupal 8 into src dir - From root Dir - `/download.sh`
+2. Remove download.sh
+3. Copy to a new repo
+4. Install from docker
 
-#### Import db
-
+### Run
+From root Dir - `./build.sh`
