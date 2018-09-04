@@ -1,5 +1,7 @@
 
-A drupal boilerplate based on Docker + docker And  [drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project "composer/drupal-project")
+A drupal8 boilerplate based on docker-compose and  [drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project "composer/drupal-project")
+
+## Quick Start:
 
 ### Create ENV:
 1. Copy env-example to .env (cp env-example .env).
