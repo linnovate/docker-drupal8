@@ -7,7 +7,7 @@ A drupal boilderplate based on Docker + docker And  [drupal-composer/drupal-proj
 
 ### Download Drupal (Installation)
 1. Download latest drupal 8 into src dir - From root Dir - `/download.sh`
-2. Remove download.sh
+2. Remove install.sh
 3. Copy to a new repo
 4. Install from docker
 
