@@ -12,3 +12,5 @@ A drupal8 boilerplate based on docker-compose and  [drupal-composer/drupal-proje
 
 ### Running
 From root Dir - `./build.sh`
+
+Website credentials will be printed to the console. Check will be available http://localhost
