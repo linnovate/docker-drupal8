@@ -8,7 +8,7 @@ A drupal8 boilerplate based on docker-compose and  [drupal-composer/drupal-proje
 2. Modify .env if needed.
 
 ### Installation
-1. Run `/install.sh` - Download latest drupal 8 into src
+1. Run `/install.sh` - Download (into src) and Setup latest drupal 8
 
 ### Running
 From root Dir - `./build.sh`
