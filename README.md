@@ -3,15 +3,12 @@ A drupal8 boilerplate based on docker-compose and  [drupal-composer/drupal-proje
 
 ## Quick Start:
 
-### Create ENV:
-1. Copy env-example to .env (cp env-example .env).
-2. Modify CONTAINER_NAME_WEB and ports in .env (if needed).
+### Configuration:
+1. Copy .env.example to .env (cp .env.example .env).
+2. Modify .env if needed.
 
-### Download Drupal (Installation)
-1. Download latest drupal 8 into src dir - From root Dir - `/download.sh`
-2. Remove install.sh
-3. Copy to a new repo
-4. Install from docker
+### Installation
+1. Run `/install.sh` - Download latest drupal 8 into src
 
-### Run
+### Running
 From root Dir - `./build.sh`
