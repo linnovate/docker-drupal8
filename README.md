@@ -14,3 +14,7 @@ A drupal8 boilerplate based on docker-compose and  [drupal-composer/drupal-proje
 From root Dir - `./build.sh`
 
 Website credentials will be printed to the console. Check will be available http://localhost
+
+### Working on custom functionality
+Custom Modules should be added under src/modules/custom
+Custom Themes should be added under src/themes/custom
